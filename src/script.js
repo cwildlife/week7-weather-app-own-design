@@ -1,3 +1,8 @@
+alert ("Hello! I am an alert box!!");
+
+
+
+
 function doTheSearch(event){
   event.preventDefault();
 
