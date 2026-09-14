@@ -1,9 +1,9 @@
-alert ("Hello! I am an alert box!!");
+alert ("Hi")
 
 
 
 
-function doTheSearch(event){
+/*function doTheSearch(event){
   event.preventDefault();
 
 let SearchInput = document.querySelector("#city");
@@ -13,4 +13,4 @@ cityElement.innerHTML = SearchInput.value;
 }
 
 let searchForm=document.querySelector("#city-search-button");
-searchForm.addEventListener("submit", doTheSearch);
+searchForm.addEventListener("submit", doTheSearch);*/
