@@ -2,7 +2,7 @@ function doTheSearch(event){
     event.preventDefault();
 
     let searchInput=document.querySelector("#city-input");
-    let cityElement=document.querySelector("#city");
+    let cityElement=document.querySelector("h1");
     cityElement.innerHTML=searchInput.value;
 }
 
