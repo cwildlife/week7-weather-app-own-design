@@ -1,3 +1,10 @@
+function searchCity(city){
+
+  
+}
+
+
+
 function doTheSearch(event){
     event.preventDefault();
 
