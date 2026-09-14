@@ -1,11 +1,11 @@
-function doTheSearch(event) {
+function doTheSearch(event){
   event.preventDefault();
 
-  let cityInputElement = document.querySelector("#city-input");
-  let h1 = document.querySelector("h1");
-  h1.innerHTML = cityInputElement.value;
-  }
+let SearchInput = document.querySelector("#city");
+console.log(SearchInput.value);
+let cityElement = document.querySelector("#city-input");
+cityElement.innerHTML = SearchInput.value;
+}
 
-
-let searchFormElement = document.querySelector("#city-search-button");
-searchFormElement.addEventListener("submit", doTheSearch);
+let searchForm=document.querySelector("#city-search-button");
+searchForm.addEventListener("submit", doTheSearch);
