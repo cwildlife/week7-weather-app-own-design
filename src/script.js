@@ -2,7 +2,7 @@ function updateWeather(response){
   let temperatureElement=document.querySelector("#temperature-value");
 let temperature = response.data.temperature.current;
   temperatureElement.innerHTML=response.data.temperature.current;
-
+console.log(response.data.temperature.current);
 }
 
 
