@@ -3,20 +3,21 @@ function updateWeather(response){
   let temperature = response.data.temperature.current;
   let conditionsElement=document.querySelector("#conditions-description");
   let humidityElement=document.querySelector("#humidity");
-let windSpeedElement=document.querySelector("#wind-speed");
+  let windSpeedElement=document.querySelector("#wind-speed");
+  let emojiElement=document.querySelector("#emoji");
 
-let dateTimeElement=document.querySelector("#date-time");
-let date=new Date(response.data.time *1000);
-
-
+  let dateTimeElement=document.querySelector("#date-time");
+  let date=new Date(response.data.time *1000);
 
   let cityElement=document.querySelector("#city-name");
+
   cityElement.innerHTML=response.data.city;
   conditionsElement.innerHTML=response.data.condition.description;
   humidityElement.innerHTML= `${response.data.temperature.humidity}%`;
   windSpeedElement.innerHTML= `${response.data.wind.speed} km/h`;
   temperatureElement.innerHTML=Math.round (temperature);
   dateTimeElement.innerHTML=formatDate(date);
+  emojiElement.innerHTML=`<img src= "${response.data.condition.icon_url}" class="emoji"/>`;
 }
 
 
