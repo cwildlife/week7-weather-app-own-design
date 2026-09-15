@@ -1,3 +1,82 @@
-h1{
-    color:aquamarine;
+body {
+    font-family: "Comic Neue", cursive;
+    background-color: #f0f8ff;
 }
+
+#search-form {
+    text-align: center;
+    margin: 20px;
+    }
+
+#city-name {
+    font-family: "Henny Penny", system-ui;
+    color:navy;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    
+}
+
+#city-input{
+    color: black;
+    background-color: beige;
+    border: none;
+    border-radius: 5px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: italic;
+    width: 50%;
+    margin: 5px auto;
+    padding: 10px 10px 10px 10px;
+}
+#city-search-button{
+    border: none;
+    border-radius: 5px;
+     background-color: beige;
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+
+#conditions-description{
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+
+footer{
+ font-family: "Comic Neue", cursive;
+ font-size: 10px;
+ font-weight:600;
+ color:blueviolet 
+ 
+}
+
+/*henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+/*
+comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+
+
+
+comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+
+
+*/
+
