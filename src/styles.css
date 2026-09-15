@@ -5,19 +5,20 @@ header{
 
 body {
     font-family: "Comic Neue", cursive;
-    background-color:#fda403; ;
-    max-width: 600px;
+    background-color:#e8751a;
+    
+    max-width: 500px;
     margin: 0 auto;
 }
 
 #app-container {
-    background-color:#e8751a;;
     border-radius: 10px;
+    background-color:#c51350;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
-
+/* form */
 #search-form {
     text-align: center;
     margin: 20px;
@@ -31,7 +32,7 @@ body {
     font-family: "Comic Neue", cursive;
     font-weight: 800;
     font-style: italic;
-    width: 50%;
+    width: 60%;
     margin: 5px auto;
     padding: 5px 5px 5px 5px;
 }
@@ -39,12 +40,13 @@ body {
 #city-search-button{
     border: none;
     border-radius: 5px;
-     background-color: beige;
+    background-color: beige;
     font-family: "Comic Neue", cursive;
     font-weight: 800;
     margin: 0 auto;
     padding: 5px 5px 5px 5px;
 }
+/* date and time */
 
 #date-time {
     font-family: "Comic Neue", cursive;
@@ -58,30 +60,45 @@ body {
     padding: 1px;
     line-height: 1.5;
 }
-
-
-#city-name {
-    font-family: "Henny Penny", system-ui;
-    color:navy;
+/* city name, temperature and emoji*/
+#city-temp-container{
     display: flex;
-    justify-content: flex-start;
     flex-direction: row;
-    font-size: 50px;
-    margin: 1px;
-}
-
-#temperature {
-    font-family: "Comic Neue", cursive;
     font-weight: 800;
     font-style: italic;
     color:navy;
     font-size: 30px;
-    margin: 1px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    line-height: 1.5;
+  }
+
+#city-name {
+    font-family: "Henny Penny", system-ui;
+    font-size: 50px;
+    margin: 0 auto;
+    position:fixed;
+    top: 125px;
+    left: 75px;
+ }
+
+#emoji {
+    font-family: "Comic Neue", cursive;
+    position:fixed;
+    top: 130px;
+    left: 400px;
+          
+}
+
+#temperature {
+    font-family: "Comic Neue", cursive;
+    position:fixed;
+    top: 100px;
+    left: 450px
+}
+
+#unit{
+    font-family: "Comic Neue", cursive;
     
-    padding-bottom: 10px;
+    
 }
 
 
