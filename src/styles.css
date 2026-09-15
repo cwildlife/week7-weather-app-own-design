@@ -1,6 +1,8 @@
 body {
     font-family: "Comic Neue", cursive;
     background-color: #f0f8ff;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 #search-form {
@@ -14,7 +16,7 @@ body {
     text-align: center;
     font-size: 50px;
     margin: 20px;
-    
+
 }
 
 #city-input{
