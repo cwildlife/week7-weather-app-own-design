@@ -33,7 +33,7 @@ body {
     font-style: italic;
     width: 50%;
     margin: 5px auto;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
 }
 
 #city-search-button{
@@ -43,7 +43,7 @@ body {
     font-family: "Comic Neue", cursive;
     font-weight: 800;
     margin: 0 auto;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
 }
 
 #date-time {
@@ -53,7 +53,10 @@ body {
     color:navy;
     font-size: 20px;
     margin: 1px;
-    display: block;
+    display: flex;
+    justify-content:center;
+    padding: 1px;
+    line-height: 1.5;
 }
 
 
@@ -61,7 +64,8 @@ body {
     font-family: "Henny Penny", system-ui;
     color:navy;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
+    flex-direction: row;
     font-size: 50px;
     margin: 1px;
 }
@@ -74,7 +78,10 @@ body {
     font-size: 30px;
     margin: 1px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+    padding-bottom: 10px;
 }
 
 
