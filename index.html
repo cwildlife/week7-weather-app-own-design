@@ -18,59 +18,62 @@
 </head>
 
 <body>
-    <header>
+    <div id="app-container">
 
-        <!-- <button> Change Theme </button> to be added in final project-->
+        <header>
 
-        <form id="search-form">
+            <!-- <button> Change Theme </button> to be added in final project-->
 
-            <input type="search" id="city-input" placeholder="Enter a city name..." required />
-            <input type="submit" id="city-search-button" value="Search" />
-        </form>
+            <form id="search-form">
 
-    </header>
+                <input type="search" id="city-input" placeholder="Enter a city name..." required />
+                <input type="submit" id="city-search-button" value="Search" />
+            </form>
 
-    <main>
-        <div>
-            <h1 id="city-name"> Dronten </h1>
-        </div>
+        </header>
 
-        <div>
+        <main>
+            <div>
+                <h1 id="city-name"> Dronten </h1>
+            </div>
+
+            <div>
+                <p>
+                    <span id="date-time"></span>
+                </p>
+            </div>
+
+            <div id="temperature">
+                <p>
+                    <span id="emoji" class="emoji">☀️</span>
+                    <span id="temperature-value">21</span>
+                    <span id="unit">°C</span>
+                </p>
+            </div>
+
+            <div id="conditions">
+                <p>
+                    <span id="conditions-description"></span>
+
+                    <br />
+                    Humidity: <strong id="humidity">15%</strong>
+                    <br />
+                    Wind: <strong id="wind-speed">41km/h</strong>
+                </p>
+            </div>
+        </main>
+
+        <footer>
             <p>
-                <span id="date-time"></span>
+                This project was coded by
+                <a href="https://github.com/cwildlife" target="_blank">Celeste Rust</a> and is
+                <a href="https://github.com/cwildlife/week7-weather-app-own-design" target="_blank"> on GitHub</a> and
+                <a href="https://week7-weather-app-own-design.vercel.app/" target="_blank">hosted on Vercel</a>
             </p>
-        </div>
+        </footer>
 
-        <div id="temperature">
-            <p>
-                <span id="emoji" class="emoji">☀️</span>
-                <span id="temperature-value">21</span>
-                <span id="unit">°C</span>
-            </p>
-        </div>
-
-        <div id="conditions">
-            <p>
-                <span id="conditions-description"></span>
-
-                <br />
-                Humidity: <strong id="humidity">15%</strong>
-                <br />
-                Wind: <strong id="wind-speed">41km/h</strong>
-            </p>
-        </div>
-    </main>
-
-    <footer>
-        <p>
-            This project was coded by
-            <a href="https://github.com/cwildlife" target="_blank">Celeste Rust</a> and is
-            <a href="https://github.com/cwildlife/week7-weather-app-own-design" target="_blank"> on GitHub</a> and
-            <a href="https://week7-weather-app-own-design.vercel.app/" target="_blank">hosted on Vercel</a>
-        </p>
-    </footer>
-
-    <script src="src/script.js"></script>
+        <script src="src/script.js"></script>
+    </div>
 </body>
 
 </html>
