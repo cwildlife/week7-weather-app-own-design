@@ -45,6 +45,18 @@ body {
     margin: 0 auto;
     padding: 10px 10px 10px 10px;
 }
+
+#date-time {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: italic;
+    color:navy;
+    font-size: 20px;
+    margin: 1px;
+    display: block;
+}
+
+
 #city-name {
     font-family: "Henny Penny", system-ui;
     color:navy;
