@@ -2,10 +2,14 @@ function updateWeather(response){
   let temperatureElement=document.querySelector("#temperature-value");
   let temperature = response.data.temperature.current;
   let conditionsElement=document.querySelector("#conditions-description");
+  let humidityElement=document.querySelector("#humidity");
+let windSpeedElement=document.querySelector("#wind-speed");
   
   let cityElement=document.querySelector("#city-name");
   cityElement.innerHTML=response.data.city;
   conditionsElement.innerHTML=response.data.condition.description;
+  humidityElement.innerHTML= `${response.data.temperature.humidity}%`;
+  windSpeedElement.innerHTML= `${response.data.wind.speed} km/h`;
   temperatureElement.innerHTML=Math.round (temperature);
 }
 
