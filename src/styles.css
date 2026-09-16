@@ -6,7 +6,7 @@ header{
 body {
     font-family: "Comic Neue", cursive;
     background-color:#e8751a;
-    max-width: 650px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -67,30 +67,34 @@ body {
     font-family: "Henny Penny", system-ui;
     display: flex;
     flex-direction: row; 
-    flex:1;
+    flex:1; 
 }
 
 .city-name {
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 10px;
+    justify-content: flex-start;
+   
    
  }
 
 .emoji {
-    font-size: 40px;
+    font-size: 25px;
     margin-left: 10px;
-    justify-content: end;
+    margin-top: 2px;
+    justify-content: flex-end;
 }
 
 .temperature-value{
-    font-size: 40px;
-    margin-top: 30px;
-    justify-content: end;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-left: 25px;
+    justify-content: flex-end;
 } 
 
 .unit{
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 5px;
 }
 
