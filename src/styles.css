@@ -6,8 +6,7 @@ header{
 body {
     font-family: "Comic Neue", cursive;
     background-color:#e8751a;
-    
-    max-width: 500px;
+    max-width: 650px;
     margin: 0 auto;
 }
 
@@ -62,51 +61,49 @@ body {
 }
 /* city name, temperature and emoji*/
 #city-temp-container{
-    display: flex;
-    flex-direction: row;
     font-weight: 800;
     font-style: italic;
     color:navy;
-    font-size: 30px;
-    line-height: 1.5;
+    font-size: 30px;    
   }
 
 #city-name {
     font-family: "Henny Penny", system-ui;
     font-size: 50px;
-    margin: 0 auto;
-    position:fixed;
-    top: 125px;
-    left: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px auto;
  }
 
 #emoji {
     font-family: "Comic Neue", cursive;
-    position:fixed;
-    top: 130px;
-    left: 400px;
-          
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 150px;
+    height: 100px;      
 }
 
 #temperature {
     font-family: "Comic Neue", cursive;
-    position:fixed;
-    top: 100px;
-    left: 450px
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 150px;
+    height: 100px;
 }
 
 #unit{
     font-family: "Comic Neue", cursive;
-    
-    
-}
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 150px;
+    height: 100px;
+}  
 
-
-
-
-
-
-
+/*Conditions, humidty and wind*/
 #conditions-description{
     font-family: "Comic Neue", cursive;
     font-weight: 800;
@@ -146,3 +143,18 @@ comic-neue-light-italic {
 
 */
 
+/* .first-color { 
+	background: #fda403; 
+}
+	
+.second-color { 
+	background: #e8751a; 
+}
+
+.third-color { 
+	background: #c51350; 
+}
+
+.fourth-color { 
+	background: #8a1253; 
+}*/
