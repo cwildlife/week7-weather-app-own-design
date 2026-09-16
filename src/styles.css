@@ -6,22 +6,28 @@ header{
 body {
     font-family: "Comic Neue", cursive;
     background-color:#e8751a;
-    max-width: 600px;
+    max-width:fit-content;
     margin: 0 auto;
+    text-align: center;
 }
 
 #app-container {
+    text-align: center;
+    margin: 20px;
     border-radius: 10px;
     background-color:#c51350;
-    padding: 20px;
+    padding: 10px 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
 }
 /* form */
 #search-form {
     text-align: center;
     margin: 20px;
-    }
+    border-radius: 10px;
+    background-color:#e8751a;
+    padding: 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
 
 #city-input{
     color: black;
@@ -31,7 +37,7 @@ body {
     font-family: "Comic Neue", cursive;
     font-weight: 800;
     font-style: italic;
-    width: 60%;
+    width: 80%;
     margin: 5px auto;
     padding: 5px 5px 5px 5px;
 }
@@ -45,14 +51,14 @@ body {
     margin: 0 auto;
     padding: 5px 5px 5px 5px;
 }
-/* date and time */
 
+/* date and time */
 #date-time {
     font-family: "Comic Neue", cursive;
-    font-weight: 800;
+    font-weight: 600;
     font-style: italic;
     color:navy;
-    font-size: 20px;
+    font-size: 15px;
     margin: 1px;
     display: flex;
     justify-content:center;
@@ -68,14 +74,13 @@ body {
     display: flex;
     flex-direction: row; 
     flex:1; 
+    margin-bottom: 0;
 }
 
 .city-name {
     font-size: 50px;
     margin-top: 10px;
-    justify-content: flex-start;
-   
-   
+    justify-content: flex-start; 
  }
 
 .emoji {
@@ -104,7 +109,7 @@ body {
     font-weight: 800;
     font-style: italic;
     text-transform: capitalize;
-}
+   
 
 footer{
  font-family: "Comic Neue", cursive;
