@@ -104,7 +104,7 @@ body{
 .temp-unit-container {
     display: flex;
     align-items: baseline;
-    gap: 2px;
+    gap: 8px;
 }
 
 
