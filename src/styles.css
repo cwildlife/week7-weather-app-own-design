@@ -13,19 +13,18 @@ body{
     max-width: 600px;
     padding: 10px 10px;
 }
-.app-container{
-    background-color: beige;
-    border: none;
-    display: block;
-    box-shadow: 10px 30px 50px navajowhite;
-    border-radius: 10px;
-    padding: 10px 10px;
-    line-height: 20px;
-    margin: 20px;
-    text-align: center;
-}
-/* FORM */
 
+#app-container{
+    background-color: white;
+    border: none;
+    box-shadow: 10px 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    line-height: 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+/* FORM */
 #search-form {
     text-align: center;
     margin: 20px;
@@ -57,7 +56,7 @@ body{
     margin: 0 auto;
     padding: 5px 5px 5px 5px;
 }
-/* date and time */
+/* DATE & TIME*/
 #date-time {
     font-family: "Comic Neue", cursive;
     font-weight: 600;
@@ -80,31 +79,29 @@ body{
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
-    padding:20px 0;
+    padding:5px 0;
     margin-bottom: 0;
-
 }
 
 .city-name{
-    display: flex;
-    justify-content: space-between;
     font-size: 50px;
     font-weight:800;
-    padding: 20px 0;
-    margin:0;
+    padding: 25px 0;
+    margin:10px 10px;
 }
 
 .emoji{
     position: relative;
-    top: 10px;
-    left: 20px;
+    top: -10px;
+    left: 10px;
     font-size: 50px;
+    padding: 2px 0;
     margin-right:10px;
 }
 
 .temperature-value{
     position: relative;
-    top: 25px;
+    top: 30px;
     bottom: 20px;
     font-size: 50px;
     margin-right: 10px;
@@ -113,85 +110,75 @@ body{
 
 .unit{
     position:relative;
-    top: 35px;
-    left: -40px;
+    top: 15px;
+    left: -10px;
     font-size: 20px;
     font-weight: 400;
 }
 
+/*CONDITIONS, HUMIDITY & WINDSPEED*/
+#conditions-container{
+    color: navy;
+    font-family: "Comic Neue", cursive;
+    font-style: normal;
+    font-size: 15px; 
+    padding: 10px 10px 10px 10px;
+    line-height: 20px;
+    margin-top: -30px;
+    margin-left: 0;
+    display: block;
+    text-align: left;
+}
+
+#conditions-description{
+    text-transform: capitalize;
+    font-weight: 600;
+    justify-content: flex-start;
+}
+
+.humidity-wind-data{
+    font-weight: 100;
+}
+
+#humidity{
+    font-weight: 800;    
+}
+
+#wind-speed{
+    font-weight: 800;
+}
+
+strong{
+    color:#8a1253;
+}
 
 footer{
     border-top: 1px dashed blueviolet;
     font-family: "Comic Neue", cursive;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 10px;
     color:brown;
     display:block;
     text-align:center;
-    margin-top: 0;
-    margin-bottom: 15px;
-    padding-top:30px;
-    padding-bottom:15px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 a{
     color:black;
     text-decoration: underline;
-    font-weight:400;
-    font-size: 16px;
+    font-weight:600;
+    font-size: 10px;
 }
 
 
 
 
 
-/* city name, temperature and emoji*/
-/*
-}
 
-.city-name {
-    font-size: 50px;
-    margin-top: 10px;
-    justify-content: flex-start; 
- }
 
-.emoji {
-    font-size: 25px;
-    margin-left: 10px;
-    margin-top: 2px;
-    justify-content: flex-end;
-}
 
-.temperature-value{
-    font-size: 45px;
-    margin-top: 20px;
-    margin-left: 25px;
-    justify-content: flex-end;
-} 
-
-.unit{
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 5px;
-}
-*/
-/*Conditions, humidty and wind*/
-/*#conditions-description{
-    font-family: "Comic Neue", cursive;
-    font-weight: 800;
-    font-style: italic;
-    text-transform: capitalize;
-   
-
-footer{
- font-family: "Comic Neue", cursive;
- font-size: 10px;
- font-weight:600;
- color:#8a1253;
- text-align: center;
- border-top: 1px dashed #e8751a;
- padding: 10px 0 0 0;
-}
-*/
 /*henny-penny-regular {
   font-family: "Henny Penny", system-ui;
   font-weight: 400;
