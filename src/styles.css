@@ -95,25 +95,31 @@ body{
 .emoji{
     position: relative;
     top: -10px;
-    left: -10px;
+    left: -5px;
     font-size: 50px;
     padding: 2px 0;
     margin-right: 10px;
 }
 
+.temp-unit-container {
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+}
+
+
 .temperature-value{
-    position: relative; 
     font-size: 60px;
+    position: relative; 
     top: 35px;
     left: -15px;
     font-weight: 700;
-    margin: 0 10px 0 0;
 }
 
 .unit{
     position: relative;
     top: 10px; 
-    left: -10px;
+    left: -20px;
     font-size: 20px;
     font-weight: 700;
     
