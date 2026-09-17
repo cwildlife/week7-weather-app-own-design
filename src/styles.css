@@ -24,7 +24,7 @@ body{
     margin: 5px 5px 5px 5px;
 }
 
-/* FORM */
+/* Form */
 #search-form {
     text-align: center;
     margin: 20px;
@@ -56,7 +56,7 @@ body{
     margin: 0 auto;
     padding: 5px 5px 5px 5px;
 }
-/* DATE & TIME*/
+/* Date & Time*/
 #date-time {
     font-family: "Comic Neue", cursive;
     font-weight: 600;
@@ -70,7 +70,7 @@ body{
     line-height: 1.0;
 }
 
-/* CITY, TEMP & EMOJI */
+/* City, Temp & Emoji */
 .city-temp-emoji-container{
     font-weight: 800;
     font-style: normal;
@@ -100,23 +100,23 @@ body{
 }
 
 .temperature-value{
-    position: relative;
-    top: 30px;
-    bottom: 20px;
+    position: relative; 
     font-size: 50px;
-    margin-right: 10px;
+    top: 35px;
+    left: -15px;
     font-weight: 700;
 }
 
 .unit{
-    position:relative;
-    top: 15px;
+    position: relative;
+    top: 10px; 
     left: -10px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
+    
 }
 
-/*CONDITIONS, HUMIDITY & WINDSPEED*/
+/*Conditions, Humidity & Wind-Speed*/
 #conditions-container{
     color: navy;
     font-family: "Comic Neue", cursive;
@@ -200,19 +200,3 @@ comic-neue-light-italic {
 
 
 */
-
-/* .first-color { 
-	background: #fda403; 
-}
-	
-.second-color { 
-	background: #e8751a; 
-}
-
-.third-color { 
-	background: #c51350; 
-}
-
-.fourth-color { 
-	background: #8a1253; 
-}*/
