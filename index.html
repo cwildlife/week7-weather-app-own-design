@@ -21,9 +21,6 @@
     <div id="app-container">
 
         <header>
-
-            <!-- <button> Change Theme </button> to be added in final project-->
-
             <form id="search-form">
 
                 <input type="search" id="city-input" placeholder="Enter a city name..." required />
@@ -39,17 +36,17 @@
         <main>
             <div class="city-temp-emoji-container" id="city-temp-container">
                 <h1 class="city-name" id="city-name"> Dronten </h1>
-                <div class="emoji" id="emoji" class="emoji">
+                <span class="emoji" id="emoji" class="emoji">
                     <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png" />
-                </div>
-                <div class="temperature-value" id="temperature-value">16</div>
-                <div class="unit" id="unit">℃</div>
+                </span>
+                <span class="temperature-value" id="temperature-value">16</span>
+                <span class="unit" id="unit">℃</span>
             </div>
     </div>
 
     <div id="conditions">
         <p>
-            <span id="conditions-description"></span>
+            <span id="conditions-description">cloudy with rain</span>
 
             <br />
             Humidity: <strong id="humidity">15%</strong>
