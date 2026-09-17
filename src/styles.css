@@ -78,8 +78,8 @@ body{
     font-family: "Henny Penny", system-ui;
     display: flex;
     flex-direction: row; 
-    justify-content: space-evenly;
-    padding:5px 0;
+    justify-content: space-around;
+    padding: 20px 0;
     margin-bottom: 0;
 }
 
@@ -98,7 +98,7 @@ body{
     left: -10px;
     font-size: 50px;
     padding: 2px 0;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
 .temperature-value{
@@ -107,6 +107,7 @@ body{
     top: 35px;
     left: -15px;
     font-weight: 700;
+    margin: 0 10px 0 0;
 }
 
 .unit{
