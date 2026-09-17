@@ -78,7 +78,7 @@ body{
     font-family: "Henny Penny", system-ui;
     display: flex;
     flex-direction: row; 
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding:5px 0;
     margin-bottom: 0;
 }
@@ -89,6 +89,7 @@ body{
     font-weight:800;
     padding: 25px 0;
     margin:10px 10px;
+    text-align: left;
 }
 
 .emoji{
