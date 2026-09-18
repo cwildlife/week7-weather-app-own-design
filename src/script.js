@@ -20,7 +20,6 @@ function updateWeather(response){
   emojiElement.innerHTML=`<img src= "${response.data.condition.icon_url}" class="emoji"/>`;
 }
 
-
 function formatDate(date){
   let minutes = date.getMinutes();
   let hours= date.getHours();
@@ -31,7 +30,7 @@ function formatDate(date){
     minutes=`0${minutes}`;
   }
   return `${day} ${hours}:${minutes}`;
-  }
+}
 
 function searchCity(city){
 let apiKey="b94o8b93a9f0455cftd053151d5ee87d";
@@ -43,7 +42,6 @@ function doTheSearch(event){
     event.preventDefault();
 
     let searchInput=document.querySelector("#city-input");
-     
     searchCity(searchInput.value);
 }
 
