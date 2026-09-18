@@ -5,20 +5,21 @@ header{
 }
 
 body{
-    background-color: aquamarine;
+    background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
     display: block;
     text-align: center;
     font-family:"Comic Neue", cursive;
     margin: 0 auto;
     max-width: 600px;
     padding: 10px 10px;
+   box-shadow: 22px 6px 23px rgba(236, 94, 220, 0.3);
 }
 
 #app-container{
     background-color: white;
     border: none;
-    box-shadow: 10px 30px 50px rgba(65, 50, 100, 0.08);
-    border-radius: 15px;
+    border: 6px double rgba(230, 33, 243, 0.2);
+    border-radius: 20px;
     padding: 10px 10px 10px 10px;
     line-height: 10px;
     margin: 5px 5px 5px 5px;
@@ -35,7 +36,7 @@ body{
 }
 
 #city-input{
-    color: black;
+    color:#407088;
     background-color: beige;
     border: none;
     border-radius: 5px;
@@ -46,6 +47,9 @@ body{
     margin: 5px auto;
     padding: 5px 5px 5px 5px;
 }
+#city-input::placeholder{
+    color: #407088;
+}
 
 #city-search-button{
     border: none;
@@ -55,13 +59,14 @@ body{
     font-weight: 800;
     margin: 0 auto;
     padding: 5px 5px 5px 5px;
+    color:#407088;
 }
 /* Date & Time*/
 #date-time {
     font-family: "Comic Neue", cursive;
     font-weight: 600;
     font-style: italic;
-    color:navy;
+    color: #132743;
     font-size: 15px;
     margin: 1px;
     display: flex;
@@ -74,7 +79,7 @@ body{
 .city-name{
     font-weight: 800;
     font-style: normal;
-    color:navy;
+    color: #407088;
     font-family: "Henny Penny", system-ui; 
     padding: 20px 0;
     margin-bottom: 0;
@@ -93,7 +98,7 @@ body{
     padding: 2px 2px;
     text-align: center;
     font-style: normal;
-    color:navy;
+    color: #407088;
     font-family: "Henny Penny", system-ui; 
 }
 
@@ -122,7 +127,7 @@ body{
 
 /*Conditions, Humidity & Wind-Speed*/
 #conditions-container{
-    color: navy;
+    color: #407088;
     font-family: "Comic Neue", cursive;
     font-style: normal;
     font-size: 15px; 
@@ -136,12 +141,13 @@ body{
 
 #conditions-description{
     text-transform: capitalize;
-    font-weight: 600;
+    font-weight: 700;
     justify-content: flex-start;
 }
 
 .humidity-wind-data{
-    font-weight: 100;
+    font-weight: 400;
+    color:#132743;
 }
 
 #humidity{
@@ -153,15 +159,15 @@ body{
 }
 
 strong{
-    color:#8a1253;
+    color:#132743;
 }
 
 footer{
     border-top: 1px dashed blueviolet;
     font-family: "Comic Neue", cursive;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 10px;
-    color:brown;
+    color:#132743;
     display:block;
     text-align:center;
     margin-top: 1px;
@@ -170,7 +176,7 @@ footer{
     padding-bottom: 2px;
 }
 a{
-    color:black;
+    color: #407088;
     text-decoration: underline;
     font-weight:600;
     font-size: 10px;
