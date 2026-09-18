@@ -5,7 +5,11 @@ header{
 }
 
 body{
-    background: linear-gradient(90deg, #ee9ca7 0%, #ffdde1 100%);   
+    /*background: linear-gradient(90deg, #ee9ca7 0%, #ffdde1 100%);*/
+     background-image: url("../images/background1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: block;
     text-align: center;
     font-family:"Comic Neue", cursive;
@@ -15,11 +19,8 @@ body{
 }
 
 #app-container{
-    background-image: url("../images/background1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
+   
+    background: linear-gradient(109.6deg, rgb(255, 221, 225) 11.2%, rgb(255, 255, 255) 92.2%);
     /*background-color: #ffcbcb;*/
     border: 6px double rgb(253, 190, 224);
     border-radius: 20px;
