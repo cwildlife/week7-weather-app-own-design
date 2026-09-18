@@ -21,6 +21,7 @@
     <div id="app-container">
 
         <header>
+
             <form id="search-form">
 
                 <input type="search" id="city-input" placeholder="Enter a city name..." required />
@@ -35,7 +36,9 @@
 
         <main>
 
-            <h1 class="city-name" id="city-name"> Dronten </h1>
+            <div id="main-city">
+                <h1 class="city-name" id="city-name"> Dronten </h1>
+            </div>
             <div class="emoji-temp-unit-container">
                 <span class="emoji" id="emoji" class="emoji">
                     <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png" />
@@ -43,8 +46,6 @@
                 <span class="temperature-value" id="temperature-value">16</span>
                 <span class="unit" id="unit">℃</span>
             </div>
-
-
 
             <div id="conditions-container">
                 <span id="conditions-description">few clouds</span>
@@ -68,7 +69,6 @@
         </footer>
 
         <script src="src/script.js"></script>
-    </div>
     </div>
 </body>
 
