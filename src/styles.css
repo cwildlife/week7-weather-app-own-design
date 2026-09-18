@@ -39,8 +39,8 @@ body{
 }
 
 #city-input{
-    color:#407088;
-    background-color: beige;
+    color:#2470a0;
+    background-color: #F9E1DF;
     border: none;
     border-radius: 5px;
     font-family: "Comic Neue", cursive;
@@ -57,7 +57,7 @@ body{
 #city-search-button{
     border: none;
     border-radius: 5px;
-    background-color: beige;
+    background-color: #F9E1DF;
     font-family: "Comic Neue", cursive;
     font-weight: 800;
     margin: 0 auto;
@@ -69,7 +69,7 @@ body{
     font-family: "Comic Neue", cursive;
     font-weight: 600;
     font-style: italic;
-    color: #132743;
+    color: #2470a0;
     font-size: 15px;
     margin: 1px;
     display: flex;
@@ -82,7 +82,7 @@ body{
 .city-name{
     font-weight: 800;
     font-style: normal;
-    color: #407088;
+    color:#2470a0;
     font-family: "Henny Penny", system-ui; 
     padding: 20px 0;
     margin-bottom: 0;
@@ -101,7 +101,7 @@ body{
     padding: 2px 2px;
     text-align: center;
     font-style: normal;
-    color: #407088;
+    color: #2470a0;
     font-family: "Henny Penny", system-ui; 
 }
 
@@ -130,7 +130,7 @@ body{
 
 /*Conditions, Humidity & Wind-Speed*/
 #conditions-container{
-    color: #407088;
+    color: #2470a0;
     font-family: "Comic Neue", cursive;
     font-style: normal;
     font-size: 15px; 
@@ -150,7 +150,7 @@ body{
 
 .humidity-wind-data{
     font-weight: 400;
-    color:#132743;
+    color:#2470a0;
 }
 
 #humidity{
@@ -162,7 +162,7 @@ body{
 }
 
 strong{
-    color:#132743;
+    color:#2470a0;
 }
 
 footer{
@@ -170,7 +170,7 @@ footer{
     font-family: "Comic Neue", cursive;
     font-weight: 600;
     font-size: 10px;
-    color:#132743;
+    color:#2470a0;
     display:block;
     text-align:center;
     margin-top: 1px;
