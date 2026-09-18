@@ -15,9 +15,8 @@ body{
 }
 
 #app-container{
-    background-color: white;
-    border: none;
-    border: 6px double rgba(230, 33, 243, 0.2);
+    background-color: #ffcbcb;
+    border: 6px double rgb(237, 172, 208);
     border-radius: 20px;
     padding: 10px 10px 10px 10px;
     line-height: 10px;
@@ -29,7 +28,7 @@ body{
     text-align: center;
     margin: 5px 5px 5px 5px;
     border-radius: 10px;
-    background-color:#ffcbcb;
+    background-color:#ffb5b5;
     padding: 8px 8px 8px 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
